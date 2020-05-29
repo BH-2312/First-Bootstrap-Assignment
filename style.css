@@ -2,73 +2,35 @@
     box-sizing: border-box;
   }
   
-
   body {
     /* Typography */
     font-size: 18px;
     line-height: 27px;
   
     /* Visual */
-    background-color: rgb(236, 229, 229)  }
-  
-    .page header {;}
-
-    .card img {
-      
-    }
+    background-color: rgb(236, 229, 229);  
+  }
+  /*size of image on index.html*/
     .card-img-top {
       height: 9cm;
-      weight: 3cm;
     }
-  
-  #main-content,
-  #sidebar {
-    /* Box-model */
-    width: 500px;
-    padding: 30px;
-  }
-  
-  #main-content {
-    /* Positioning */
-    float: left;
-  
-    /* Visual */
-    background: #fff;
-  }
-  
-  #sidebar {
-    /* Positioning */
-    float: right;
-  
-    /* Visual */
-    background: #eee;
-  }
-  
-  /*
-    These rules take effect when the browser's width
-    is either 768px or less.
-  */
-  @media screen and (max-width: 768px) {
-    /* The body's bg color will be #333 */
-    body {
-      background-color: #333;
-    }
-  
-    /* The wrapper's width will be 600px */
-    .wrapper {
-      width: 600px;
+/*styling of images in portfolio.html*/
+    .card {
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
     }
 
-      /*
-    The width of the wrapper will be 1024px
-    at browser widths above 768px
-  */
-    .wrapper {
-      /* Box-model */
+    .container {
+      margin-top: 1cm;
       width: 1024px;
-    
-      /* Positioning */
-      margin: 40px auto;
     }
+   
+    /*instructions for when screen size >768px*/
+    @media screen and (max-width: 768px) {
+    
+      .container {
+        /* Box-model */
+        width: 100%;
+      }
   }
-
