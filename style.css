@@ -21,16 +21,22 @@
     padding-right: 25px;
     }
 
-    .container {
+    .container-fluid {
       margin-top: 1cm;
       width: 1024px;
     }
    
-    /*instructions for when screen size >768px*/
+    /*instructions for when screen size <768px*/
     @media screen and (max-width: 768px) {
     
-      .container {
+      .container-fluid {
         /* Box-model */
         width: 100%;
+        font-size: 18px;
+        line-height: 20px;
+
       }
+
+
+ 
   }
